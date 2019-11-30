@@ -1,0 +1,18 @@
+{
+  "name": "cinedanton-dataset",
+  "version": "1.0.0",
+  "author": {
+    "name": "El Abbassi Youssef",
+    "email": "youssef@cinedantan.com",
+    "url": "https://cinedantan.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./src/build.js && npm test",
+    "test": "node ./node_modules/mocha/bin/mocha --watch --recursive"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2"
+  }
+}
