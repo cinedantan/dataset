@@ -59,9 +59,9 @@ than run
 
 	npm run build
 
-- **ao: ** archive.org
+- **ao:** archive.org
 - **wp:** wikipedia
-- **aoFiles: ** only one file is required
-- **identifier: **  archive.org identifier
+- **aoFiles:** only one file is required
+- **identifier:**  archive.org identifier
 
 
