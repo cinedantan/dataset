@@ -34,6 +34,7 @@ describe('movies dataset', function() {
         
             it(movie.imdb + ' should have at least one valid video link', function () { 
                 expect(movie.aoFiles[0]).to.have.property("url").to.be.a('string')
+                expect(movie.aoFiles[0]).to.have.property("format").to.be.a('string')
             })
            
       
