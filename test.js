@@ -32,9 +32,11 @@ describe('movies dataset', function() {
                 expect(movie).to.have.property("storyFrom").to.be.a('string')
             });
         
-            it(movie.imdb + ' should have at least one valid video link', function () { 
+        it(movie.imdb + ' should have at least one valid video link', function () { 
+          
                 expect(movie.aoFiles[0]).to.have.property("url").to.be.a('string')
                 expect(movie.aoFiles[0]).to.have.property("format").to.be.a('string')
+                expect(movie.aoFiles).to.satisfy(checkIfValidVideoForWeb)
             })
            
       
@@ -42,4 +44,8 @@ describe('movies dataset', function() {
        
    
       
-  });
+});
+  
+function checkIfValidVideoForWeb(video) {
+    return video.filter(v=>v.url.indexOf('mp4')>-1)[0]
+}
