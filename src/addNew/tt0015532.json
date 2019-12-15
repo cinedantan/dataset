@@ -1,0 +1,26 @@
+{
+	"imdb": "tt0015532",
+	"status": "free",
+	"title": "The Adventures of Prince Achmed (1926)",
+	"year": "1926",
+	"runtime": "1h 21min",
+	"story": "The Adventures of Prince Achmed (German: Die Abenteuer des Prinzen Achmed) is a 1926 German animated fairytale film by Lotte Reiniger. It is the oldest surviving animated feature film; two earlier ones were made in Argentina by Quirino Cristiani, but they are considered lost.[1] The Adventures of Prince Achmed features a silhouette animation technique Reiniger had invented which involved manipulated cutouts made from cardboard and thin sheets of lead under a camera. The technique she used for the camera is similar to Wayang shadow puppets, though hers were animated frame by frame, not manipulated in live action. The original prints featured color tinting.&quot",
+	"director": [ "Lotte Reiniger", "Carl Koch"],
+	"writers": [],
+	"stars": [],
+	"genre": ["Animation", "Adventure", "Fantasy", "Romance"],
+	"rating": "7.8",
+	"related": [],
+	"aoMeta": {
+		"subject": []
+	},
+	"aoFiles": [{
+			"url": "/Die%20Abenteuer%20des%20Prinzen%20Achmed%20%28VOSE%20Lotte%20Reiniger%2C%201926%29.mp4",
+			"format": "h.264"
+		}
+	],
+	"identifier": "DieAbenteuerDesPrinzenAchmedVOSELotteReiniger1926",
+	"archiveDownloadCount": 890,
+	"wiki": "Q567591",
+	"storyFrom": "wp"
+}
